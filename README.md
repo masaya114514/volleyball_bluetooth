@@ -1,6 +1,6 @@
 # volleyball
 
-> volleyball controler using bluetooth
+> volleyball controller using bluetooth
 
 ## Build Setup
 
