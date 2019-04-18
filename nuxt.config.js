@@ -3,7 +3,7 @@ import pkg from './package'
 
 export default {
   router: {
-    base: '/<repository-name>/'
+    base: '/volleyball_bluetooth/'
   },
   mode: 'spa',
 
