@@ -1,10 +1,14 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
 
-export default {
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/volleyball_bluetooth/'
-  },
+  }
+} : {}
+
+export default {
+  routerBase,
   mode: 'spa',
 
   /*
