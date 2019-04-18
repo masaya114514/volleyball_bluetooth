@@ -2,6 +2,9 @@ import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
 
 export default {
+  router: {
+    base: '/<repository-name>/'
+  },
   mode: 'spa',
 
   /*
